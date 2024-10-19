@@ -1,88 +1,84 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marain Consulting</title>
+
+    <!-- Google Font: Bungee Tint -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.13/base.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Tailwind CSS and DaisyUI (via CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
+
     <style>
+        /* Custom Font Class */
         .bungee-tint-regular {
             font-family: "Bungee Tint", sans-serif;
             font-weight: 400;
             font-style: normal;
         }
+
+        /* Hero Section Background Image */
+        #hero-section {
+            background-image: url('./images/marain-as-a-language-of-culture.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Ensure content stays in the center */
+        .centered-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
     </style>
 </head>
-
 <body class="bg-gray-100 text-gray-900">
 
     <!-- Header Section -->
     <header class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto flex items-center justify-between px-6">
-            <!-- Logo -->
-            <div class="flex items-center">
-                <h1 class="text-3xl bungee-tint-regular">Marain</h1>
+        <div class="centered-container">
+            <div class="flex items-center justify-center">
+                <h1 class="text-3xl bungee-tint-regular">Marain Space</h1>
             </div>
         </div>
     </header>
 
-    <!-- Placeholder for Hero Section -->    
-    <section  id="hero-section" class="bg-gradient-to-b from-blue-900 via-indigo-900 to-purple-900 text-center text-white py-32">
-        <!-- Logo -->
-        <h1 class="text-6xl bungee-tint-regular mb-8">Marain Space</h1>
-        
-        <!-- Main Heading -->
-        <h2 class="text-4xl font-bold mb-6">Strategic Thinking Through The Lens of Culture</h2>
-        
-        <!-- Strap -->
-        <p class="text-lg max-w-3xl mx-auto mb-10 px-4">
-            Our interconnected world is defined by both bridges and fractures — all rooted in our distinct cultures that meet, mingle, and battle. We help you map and navigate global complexity without dumbing it down.
-        </p>
-        
-        </section>
-    
+    <!-- Hero Section with Background Image -->
+    <section id="hero-section" class="text-center text-white py-32">
+        <div class="centered-container">
+            <h1 class="text-2xl bungee-tint-regular mb-8">Strategic Thinking Through The Lens of Culture</h1>
+        </div>
+    </section>
 
-    <!-- Placeholder for Details Section -->
-    <section id="details-section">
-        <!-- Content will be added later -->
+    <!-- Details Section -->
+    <section id="details-section" class="text-center py-16">
+        <div class="centered-container">
+            <p class="text-lg">We help you navigate global complexity with precision and empathy.</p>           
+            <p class="text-lg mb-10">
+                We believe our interconnected world is built on bridges across cultural fractures — rooted in individual and social identities that meet, mingle, and battle each other in a constantly shifting dance. 
+    
+            </p>
+            <p>We help you map and navigate global complexity.</p>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-10">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 text-center md:text-left">
-            <!-- Logo & Tagline -->
-            <div>
-                <h1 class="text-2xl bungee-tint-regular mb-4">Marain</h1>
-                <p class="text-sm">Navigating global complexity with precision and empathy.</p>
-            </div>
-
-            <!-- Links -->
-            <div>
-                <h4 class="font-bold text-lg mb-2">Quick Links</h4>
-                <ul class="space-y-2">
-                    <li><a href="#hero-section" class="hover:underline">Home</a></li>
-                    <li><a href="#details-section" class="hover:underline">Services</a></li>
-                    <li><a href="#contact" class="hover:underline">Contact</a></li>
-                    <li><a href="#privacy" class="hover:underline">Privacy Policy</a></li>
-                </ul>
-            </div>
-
+        <div class="centered-container grid grid-cols-1 gap-8 text-center">
             <!-- Contact Information -->
             <div>
                 <h4 class="font-bold text-lg mb-2">Contact Us</h4>
                 <p>Email: <a href="mailto:info@marain.space" class="hover:underline">info@marain.space</a></p>
-                <p>Data Privacy Officer <a href="mailto:privacy.officer@marain.space" class="hover:underline">privacy.officer@marain.space</a></p>
+                <p>Data Privacy Officer: <a href="mailto:privacy.officer@marain.space" class="hover:underline">privacy.officer@marain.space</a></p>
             </div>
         </div>
     </footer>
 
 </body>
 </html>
-
-
-

@@ -1,0 +1,145 @@
+[
+  {
+    "service": "Mindstate Analysis",
+    "icon": "\ud83e\udd20",
+    "tagline": "Reading the hidden architectures of identity and meaning.",
+    "purpose": "Decode the emotional and cultural forces shaping behavior — the 'why' behind the 'what'.",
+    "inputs": [
+      "Ethnographic interviews and narrative surveys",
+      "Social discourse and community conversations",
+      "Local media and open cultural datasets"
+    ],
+    "tools": [
+      "GPT-4 and HuggingFace NLP models for metaphor and frame detection",
+      "Semiotic and narrative analysis frameworks",
+      "Pattern recognition and clustering to identify meaning shifts"
+    ],
+    "deliverables": [
+      "Mindstate Map — visual network of values and emotional drivers",
+      "Identity Archetypes — clusters of meaning beyond demographics",
+      "Narrative Brief — stories shaping perception and action",
+      "Strategic Recommendations — actions aligned with cultural logic"
+    ],
+    "examples": [
+      "Understanding how attitudes toward sustainability vary across regions",
+      "Mapping generational divides in trust and authority",
+      "Designing products that resonate with hybrid cultural identities"
+    ],
+    "outcome": "A deep, actionable picture of meaning — showing not just what people do, but why they do it."
+  },
+  {
+    "service": "The Lens Infinite",
+    "icon": "\ud83d\udd2d",
+    "tagline": "AI-powered insight systems that reveal what matters, faster.",
+    "purpose": "Cut through noise to deliver continuous, explainable intelligence about emerging narratives, sentiments, and blind spots.",
+    "inputs": [
+      "Social media streams and news APIs",
+      "Public forums, trend reports, and policy documents",
+      "Open cultural and behavioral data sources"
+    ],
+    "tools": [
+      "Automated data ingestion (Tweepy, NewsAPI, SerpAPI)",
+      "GPT-4 or Claude for summarization and theme extraction",
+      "BERTopic or LDA for topic modeling and trend clustering",
+      "Sentiment analysis via HuggingFace transformers",
+      "Vector databases (Weaviate, Pinecone) and dashboards (Streamlit, Dash)"
+    ],
+    "deliverables": [
+      "Narrative Dashboard — real-time visibility into discourse and sentiment",
+      "Insight Cards — explainable summaries of key trends",
+      "Blind Spot Reports — bias and coverage gaps",
+      "Signal Evolution Maps — how narratives shift over time"
+    ],
+    "examples": [
+      "Real-time monitoring of public discourse around regulation or reform",
+      "Tracking evolving narratives of brand trust and legitimacy",
+      "Surfacing early indicators of cultural tension or opportunity"
+    ],
+    "outcome": "Continuous cultural intelligence — fast, explainable, and tuned to meaning."
+  },
+  {
+    "service": "Strategem Weavers",
+    "icon": "\ud83e\ude84",
+    "tagline": "Designing strategies rooted in culture, powered by intelligence.",
+    "purpose": "Transform insight into action — crafting strategies that align purpose with cultural truth and lived reality.",
+    "inputs": [
+      "Mindstate Analysis outputs — meaning maps and archetypes",
+      "Lens Infinite signals — emerging narratives and tensions",
+      "Organizational purpose, mission, and goals"
+    ],
+    "tools": [
+      "LLM-assisted strategy modeling and foresight (GPT-4, Claude)",
+      "Knowledge graphs and scenario planning frameworks",
+      "Agent-based simulations and sensitivity testing",
+      "Ethical and bias auditing for cultural alignment"
+    ],
+    "deliverables": [
+      "Cultural Strategy Blueprint — roadmap linking insight to action",
+      "Narrative Positioning Guide — story architecture and messaging pillars",
+      "Alignment Map — intersections of purpose and meaning",
+      "Adaptive Strategy Framework — iterative, evolving approach"
+    ],
+    "examples": [
+      "Repositioning a brand to reflect shifting social values",
+      "Crafting narratives for public-sector reform initiatives",
+      "Designing entry strategies for culturally complex markets"
+    ],
+    "outcome": "Strategies that resonate — built from the inside out, evolving as culture evolves."
+  },
+  {
+    "service": "The Concord Table",
+    "icon": "\ud83d\udc8a",
+    "tagline": "Facilitating dialogue and alignment across stakeholders.",
+    "purpose": "Bring together diverse stakeholders — corporations, policymakers, and communities — to build shared understanding and collective action.",
+    "inputs": [
+      "Stakeholder statements and public communications",
+      "Cultural diagnostics and sentiment data",
+      "Policy papers, position documents, and interviews"
+    ],
+    "tools": [
+      "LLM-assisted summarization and stance detection (GPT-4, HuggingFace)",
+      "Narrative and empathy mapping frameworks",
+      "Discourse graph visualization (D3.js, NetworkX)",
+      "Scenario foresight and AI-supported facilitation design"
+    ],
+    "deliverables": [
+      "Stakeholder Alignment Map — visualization of shared values and tensions",
+      "Dialogue Summary Reports — distilled insights from discussions",
+      "Shared Narrative Framework — co-created purpose statement",
+      "Action Alignment Blueprint — agreed priorities and next steps"
+    ],
+    "examples": [
+      "Building cross-sector coalitions around climate action",
+      "Aligning internal teams around a shared vision during transformation",
+      "Designing policy roundtables informed by real-world narratives"
+    ],
+    "outcome": "Strategic alignment built on mutual understanding, not negotiation alone."
+  },
+  {
+    "service": "The Praxis Engine",
+    "icon": "\u2699\ufe0f",
+    "tagline": "Turning insight into sustained action.",
+    "purpose": "Embed empathy and foresight into daily operations through systems, training, and continuous feedback.",
+    "inputs": [
+      "Outputs from prior services (insight, strategy, alignment)",
+      "Organizational workflows, KPIs, and operational data"
+    ],
+    "tools": [
+      "Interactive training modules and leadership workshops",
+      "Cultural KPI dashboards (Streamlit, Tableau, Dash)",
+      "AI-assisted reporting, monitoring, and feedback loops"
+    ],
+    "deliverables": [
+      "Implementation Playbook — operationalizing insight and strategy",
+      "Adaptive Dashboard — tracking resonance, trust, and alignment",
+      "Training Modules — building interpretive and ethical capacity",
+      "Feedback Systems — continuous learning and refinement"
+    ],
+    "examples": [
+      "Training leadership teams to interpret AI insights ethically",
+      "Embedding cultural KPIs into performance frameworks",
+      "Designing adaptive dashboards that measure resonance, not just reach"
+    ],
+    "outcome": "Organizations that don’t just understand the world — they evolve with it."
+  }
+]
